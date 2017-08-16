@@ -1,0 +1,152 @@
+*{
+  font-size: large;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+header{
+  /*padding-left: 50px;*/
+  margin: 0;
+  height: 100px;
+  background-color: white;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+p{
+  line-height: 200%;
+}
+body{
+  background-image: url("../images/ep_naturalwhite.png");
+  background-repeat: repeat;
+  max-width: 980px;
+}
+#left-sec{
+  background-color: #4aaaa5;
+  width:275px;
+  height: 80px;
+  padding-left: 0px;
+  padding-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+  float:left;
+  text-align: center;
+}
+
+#right-sec{
+  background-color: #ffffff;
+  width:300px;
+  height: 80px;
+  float: right;
+  color:#808080;
+  /*text-align: right;*/
+}
+#content{
+  height:80px;
+  position:relative;
+  top:50%;
+  display: table;
+}
+.hyplinks{
+  display: table-cell;
+  padding-left: 20px;
+}
+/*Below is where the most changes will occur*/
+article{
+  clear:both;
+  float:left;
+  padding:30px 20px 20px 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: white;
+  width: 510px;
+  padding-bottom:80px;
+}
+article img{
+  padding:0px;
+  width:150px;
+  margin: 0px;
+}
+hr{
+  color: #dddddd;
+  fill: #dddddd;
+}
+
+#img-nick{
+  width:300px;
+  /*float:left;*/
+  padding-right: 20px;
+}
+aside{
+  float:left;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding:30px 20px 20px 20px;
+  /*width: 140px;*/
+}
+h2{
+  color:#4aaaa5;
+  font-size: 25px;
+}
+aside h3{
+  font-size: 20px;
+  color:#4aaaa5
+}
+aside img{
+  width:40px;
+}
+a:link{
+  color:#808080;
+}
+h1{
+  color:white;
+  font-size: 30px;
+  padding-top: 20px;
+}
+footer{
+  clear:both;
+  border-style: solid;
+  border-top-color:#4aaaa5;
+  border-top-width: 5px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #666;
+  height:50px;
+}
+@media only screen and (max-width:980px){
+
+}
+@media only screen and (max-width:768px){
+  aside{
+    padding-bottom: 60px;
+    width:80%;
+  }
+  article{
+    width:80%;
+  }
+
+}
+@media only screen and (max-width:640px){
+  #right-sec{
+    clear:both;
+    width: 100%;
+  }
+  #content{
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    width:100%;
+    }
+  #content>div {
+    width: 100px;
+    height: 100px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+  }
+  article{
+    width:80%;
+  }
+  aside{
+    padding-bottom: 60px;
+  }
+}

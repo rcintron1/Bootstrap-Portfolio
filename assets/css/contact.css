@@ -1,0 +1,15 @@
+textbox{
+  color: #4aaaa5
+}
+p{
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+button{
+  color:white;
+  background-color: #4aaaa5;
+  border:0px;
+}
+textarea{
+  width:90%;
+  height:30px;
+}

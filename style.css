@@ -21,9 +21,12 @@ a img{
 #img-nick{
   width:300px;
   /*float:left;*/
-  /*padding-right: 20px;*/
+  /*margin: 30px;*/
 }
   h2{
     color:#4aaaa5;
     font-size: 25px;
   }
+/*.clearfloat{
+  clear:both;
+}*/
